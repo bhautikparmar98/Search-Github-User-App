@@ -1,0 +1,16 @@
+th{
+    border:1.5px solid #1976d2;;
+    padding: 0.5rem
+  }
+table{
+    width: fit-content;
+    margin: auto;
+    padding: 0.5rem;
+
+}
+td{
+    text-align: center;
+    padding: 0.5rem;
+    border:1.2px dashed #1976d2;;
+}
+ 

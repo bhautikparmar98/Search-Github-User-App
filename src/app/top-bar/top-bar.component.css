@@ -1,0 +1,23 @@
+ .link{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding:2rem 1rem;
+    font-size: large;
+  }
+  a,h1{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+  a.active{
+      color:rgb(1, 24, 24)
+  }
+.header{
+    display: flex;
+    flex-direction: row;
+}
+

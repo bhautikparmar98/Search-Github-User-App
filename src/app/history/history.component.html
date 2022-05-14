@@ -1,0 +1,15 @@
+<h1>Search History List</h1>
+<div >
+    <table>
+        <tr> 
+            <th>search Value</th>
+            <th>Status</th>
+        </tr>
+        <tr *ngFor="let item of history; let i=index">
+            <td>{{item.name}}</td>
+            <td>{{item.status}}</td>
+        </tr>
+    </table>
+    <button (click)="clearSearch()">Clear Seacrh</button>
+</div>
+

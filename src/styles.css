@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #616161;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+  }
+   
+  /* Text */
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h1, h2 {
+    font-weight: lighter;
+  }
+
+
+/* Button */
+.button, button {
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  margin: 1rem 5rem ;
+  
+}
+
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}  
+
+ 
+  

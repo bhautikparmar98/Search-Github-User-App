@@ -1,0 +1,11 @@
+<form class="form">
+    <input type="text" name="value" [(ngModel)]="value" placeholder="search github users"/>
+    <button type="button" (click)="search(value)">search</button>
+</form>
+
+<div class="userinfo"  *ngIf="showInfo && errorMessage.length===0">
+    <div class="img"><img src="{{userInfo.avatar_url}}" /></div>
+    <div>Github UserName: <b>{{userInfo.name}}</b></div>
+    <div>Github Link: <i>{{userInfo.html_url}}</i></div>
+</div>
+<div *ngIf="errorMessage.length>0">Github User {{errorMessage}}</div>
